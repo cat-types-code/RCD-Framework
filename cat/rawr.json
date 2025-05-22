@@ -1,0 +1,16 @@
+{
+  "constructors": [
+    "entropy/entropy.css",
+    "fractal/fractal.css"
+  ],
+  "documentations": [
+    "entropy/entropy.md",
+    "fractal/fractal.md"
+  ],
+  "metadata": {
+    "level": "MIDD",
+    "catalog": "chaos",
+    "description": "Chaos effects collection",
+    "lastUpdate": "2025-05-11T13:28:48.380Z"
+  }
+}

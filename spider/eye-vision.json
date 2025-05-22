@@ -1,0 +1,243 @@
+{
+  "type": "root",
+  "name": "root",
+  "path": "",
+  "children": [
+    {
+      "type": "directory",
+      "name": "00_Root",
+      "title": "[00] Root",
+      "level": 1,
+      "children": [
+        {
+          "type": "directory",
+          "name": "B1_B1",
+          "title": "[B1] B1",
+          "level": 2,
+          "children": [
+            {
+              "type": "directory",
+              "name": "C1_C1",
+              "title": "[C1] C1",
+              "level": 3,
+              "children": [],
+              "files": [
+                {
+                  "type": "file",
+                  "name": "file_C1_1.txt",
+                  "content": "This is a test file 1 in directory C1\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                }
+              ],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 1"
+              }
+            },
+            {
+              "type": "directory",
+              "name": "C3_C3",
+              "title": "[C3] C3",
+              "level": 3,
+              "children": [],
+              "files": [
+                {
+                  "type": "file",
+                  "name": "file_C3_1.txt",
+                  "content": "This is a test file 1 in directory C3\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                }
+              ],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 3"
+              }
+            },
+            {
+              "type": "directory",
+              "name": "C4_C4",
+              "title": "[C4] C4",
+              "level": 3,
+              "children": [],
+              "files": [
+                {
+                  "type": "file",
+                  "name": "file_C4_1.txt",
+                  "content": "This is a test file 1 in directory C4\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                }
+              ],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 4"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "file",
+              "name": "file_B1_1.txt",
+              "content": "This is a test file 1 in directory B1\n",
+              "language": "",
+              "metadata": {
+                "description": ""
+              }
+            }
+          ],
+          "metadata": {
+            "description": "Каталог на глубине 1, индекс 1"
+          }
+        },
+        {
+          "type": "directory",
+          "name": "B2_B2",
+          "title": "[B2] B2",
+          "level": 2,
+          "children": [
+            {
+              "type": "directory",
+              "name": "C2_C2",
+              "title": "[C2] C2",
+              "level": 3,
+              "children": [],
+              "files": [
+                {
+                  "type": "file",
+                  "name": "file_C2_1.txt",
+                  "content": "This is a test file 1 in directory C2\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                },
+                {
+                  "type": "file",
+                  "name": "file_C2_2.txt",
+                  "content": "This is a test file 2 in directory C2\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                }
+              ],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 2"
+              }
+            },
+            {
+              "type": "directory",
+              "name": "C5_C5",
+              "title": "[C5] C5",
+              "level": 3,
+              "children": [],
+              "files": [],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 5"
+              }
+            },
+            {
+              "type": "directory",
+              "name": "C6_C6",
+              "title": "[C6] C6",
+              "level": 3,
+              "children": [],
+              "files": [
+                {
+                  "type": "file",
+                  "name": "file_C6_1.txt",
+                  "content": "This is a test file 1 in directory C6\n",
+                  "language": "",
+                  "metadata": {
+                    "description": ""
+                  }
+                }
+              ],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 6"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "file",
+              "name": "file_B2_1.txt",
+              "content": "This is a test file 1 in directory B2\n",
+              "language": "",
+              "metadata": {
+                "description": ""
+              }
+            },
+            {
+              "type": "file",
+              "name": "file_B2_2.txt",
+              "content": "This is a test file 2 in directory B2\n",
+              "language": "",
+              "metadata": {
+                "description": ""
+              }
+            }
+          ],
+          "metadata": {
+            "description": "Каталог на глубине 1, индекс 2"
+          }
+        },
+        {
+          "type": "directory",
+          "name": "B3_B3",
+          "title": "[B3] B3",
+          "level": 2,
+          "children": [
+            {
+              "type": "directory",
+              "name": "C7_C7",
+              "title": "[C7] C7",
+              "level": 3,
+              "children": [],
+              "files": [],
+              "metadata": {
+                "description": "Каталог на глубине 2, индекс 7"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "file",
+              "name": "file_B3_1.txt",
+              "content": "This is a test file 1 in directory B3\n",
+              "language": "",
+              "metadata": {
+                "description": ""
+              }
+            },
+            {
+              "type": "file",
+              "name": "file_B3_2.txt",
+              "content": "This is a test file 2 in directory B3\n",
+              "language": "",
+              "metadata": {
+                "description": ""
+              }
+            }
+          ],
+          "metadata": {
+            "description": "Каталог на глубине 1, индекс 3"
+          }
+        }
+      ],
+      "files": [],
+      "metadata": {
+        "description": "Каталог на глубине 0, индекс 0"
+      }
+    }
+  ],
+  "files": [],
+  "metadata": {
+    "description": ""
+  }
+}

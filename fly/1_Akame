@@ -1,0 +1,366 @@
+1_Akame/
+├── .idea/
+│   ├── .gitignore
+│   ├── 1_Akame.iml
+│   ├── modules.xml
+│   ├── prettier.xml
+│   └── workspace.xml
+├── .obsidian/
+│   ├── RCD_GARDEN/
+│   │   ├── fly/
+│   │   │   ├── output/
+│   │   │   │   ├── Koruse/
+│   │   │   │   │   ├── Documentation/
+│   │   │   │   │   │   ├── ComponentsDoc/
+│   │   │   │   │   │   │   ├── Examples/
+│   │   │   │   │   │   │   ├── ...
+│   │   │   │   │   │   │   ├── SwelteDocs.md
+│   │   │   │   │   │   │   └── UmamiDocs.md
+│   │   │   │   │   │   └── CoreConcepts.md
+│   │   │   │   │   ├── Evolution/
+│   │   │   │   │   │   ├── Migrations/
+│   │   │   │   │   │   ├── ChangeLog.md
+│   │   │   │   │   │   └── Roadmap.md
+│   │   │   │   │   ├── Honey/
+│   │   │   │   │   │   ├── BlendingModes.css
+│   │   │   │   │   │   ├── SyrupEffects.css
+│   │   │   │   │   │   └── TransitionsLibrary.css
+│   │   │   │   │   ├── Integration/
+│   │   │   │   │   │   ├── Adaptors/
+│   │   │   │   │   │   ├── EventBus.js
+│   │   │   │   │   │   └── Mediator.js
+│   │   │   │   │   └── Mirror/
+│   │   │   │   │       ├── CodeReflector.js
+│   │   │   │   │       ├── StructureVisualizer.js
+│   │   │   │   │       └── UsageStats.js
+│   │   │   │   ├── .gitignore
+│   │   │   │   └── README.md
+│   │   │   ├── fly_brain.js
+│   │   │   ├── fly_jelly.js
+│   │   │   ├── fly_legs.js
+│   │   │   ├── fly.js
+│   │   │   ├── table.txt
+│   │   │   └── untable.js
+│   │   ├── spider/
+│   │   │   ├── eyes/
+│   │   │   │   ├── markdown_eye_a.js
+│   │   │   │   └── markdown_eye.js
+│   │   │   ├── legs/
+│   │   │   │   └── leg1_builder.js
+│   │   │   ├── test-spider/
+│   │   │   │   ├── markdown/
+│   │   │   │   │   ├── complex-structure.md
+│   │   │   │   │   ├── medium-structure.md
+│   │   │   │   │   └── simple-structure.md
+│   │   │   │   ├── structure/
+│   │   │   │   │   ├── structure-1/
+│   │   │   │   │   │   └── 00_Root/
+│   │   │   │   │   │       ├── B1_B1/
+│   │   │   │   │   │       │   ├── file_B1_1.txt
+│   │   │   │   │   │       │   └── file_B1_2.txt
+│   │   │   │   │   │       └── B2_B2/
+│   │   │   │   │   │           └── file_B2_1.txt
+│   │   │   │   │   ├── structure-2/
+│   │   │   │   │   │   └── 00_Root/
+│   │   │   │   │   │       ├── B1_B1/
+│   │   │   │   │   │       │   ├── C2_C2/
+│   │   │   │   │   │       │   │   ├── D3_D3/
+│   │   │   │   │   │       │   │   │   └── file_D3_1.txt
+│   │   │   │   │   │       │   │   └── file_C2_1.txt
+│   │   │   │   │   │       │   └── C3_C3/
+│   │   │   │   │   │       │       ├── D1_D1/
+│   │   │   │   │   │       │       │   └── file_D1_1.txt
+│   │   │   │   │   │       │       ├── D4_D4/
+│   │   │   │   │   │       │       │   └── file_D4_1.txt
+│   │   │   │   │   │       │       └── file_C3_1.txt
+│   │   │   │   │   │       ├── B2_B2/
+│   │   │   │   │   │       │   └── C1_C1/
+│   │   │   │   │   │       │       └── D2_D2/
+│   │   │   │   │   │       └── B3_B3/
+│   │   │   │   │   └── structure-3/
+│   │   │   │   │       └── 00_Root/
+│   │   │   │   │           ├── B1_B1/
+│   │   │   │   │           │   ├── C1_C1/
+│   │   │   │   │           │   │   ├── D1_D1/
+│   │   │   │   │           │   │   │   ├── E1_E1/
+│   │   │   │   │           │   │   │   ├── E2_E2/
+│   │   │   │   │           │   │   │   │   └── file_E2_1.txt
+│   │   │   │   │           │   │   │   ├── E3_E3/
+│   │   │   │   │           │   │   │   │   ├── file_E3_1.txt
+│   │   │   │   │           │   │   │   │   └── file_E3_2.txt
+│   │   │   │   │           │   │   │   └── file_D1_1.txt
+│   │   │   │   │           │   │   ├── D3_D3/
+│   │   │   │   │           │   │   ├── D4_D4/
+│   │   │   │   │           │   │   │   ├── file_D4_1.txt
+│   │   │   │   │           │   │   │   └── file_D4_2.txt
+│   │   │   │   │           │   │   ├── file_C1_1.txt
+│   │   │   │   │           │   │   └── file_C1_2.txt
+│   │   │   │   │           │   ├── C2_C2/
+│   │   │   │   │           │   │   └── D2_D2/
+│   │   │   │   │           │   │       └── file_D2_1.txt
+│   │   │   │   │           │   ├── C3_C3/
+│   │   │   │   │           │   │   ├── D5_D5/
+│   │   │   │   │           │   │   │   └── E4_E4/
+│   │   │   │   │           │   │   ├── D6_D6/
+│   │   │   │   │           │   │   ├── file_C3_1.txt
+│   │   │   │   │           │   │   └── file_C3_2.txt
+│   │   │   │   │           │   └── file_B1_1.txt
+│   │   │   │   │           └── B2_B2/
+│   │   │   │   │               ├── file_B2_1.txt
+│   │   │   │   │               └── file_B2_2.txt
+│   │   │   │   └── sight.json
+│   │   │   ├── brain_a.js
+│   │   │   ├── brain.js
+│   │   │   ├── eye-vision.json
+│   │   │   ├── test_spider.js
+│   │   │   ├── test-complex.md
+│   │   │   ├── test-medium.md
+│   │   │   └── test-simple.md
+│   │   ├── crab_jelly.js
+│   │   └── fly.sh
+│   ├── Romalin/
+│   │   ├── 00_Romalin/
+│   │   │   ├── 01_Loric/
+│   │   │   │   ├── 01_DEVILS_INSIDE_ME/
+│   │   │   │   │   └── DEVILS_INSIDE_ME.md
+│   │   │   │   ├── 02_28_Days_Later/
+│   │   │   │   │   └── 28_Days_Later.md
+│   │   │   │   ├── 03_Resident_Evil/
+│   │   │   │   │   └── Resident_Evil.md
+│   │   │   │   ├── 04_Vois_Sur_Ton_Chemin/
+│   │   │   │   │   └── Vois_Sur_Ton_Chemin.md
+│   │   │   │   ├── 05_No_Glory/
+│   │   │   │   │   └── No_Glory.md
+│   │   │   │   ├── 06_Glory/
+│   │   │   │   │   └── Glory.md
+│   │   │   │   ├── 07_Dragon_Fire/
+│   │   │   │   │   └── Dragon_Fire.md
+│   │   │   │   ├── 08_Ragnarok/
+│   │   │   │   │   └── Ragnarok.md
+│   │   │   │   └── Loric.md
+│   │   │   ├── 02_Sollowatt/
+│   │   │   │   ├── 01_Psycho/
+│   │   │   │   │   └── Psycho.md
+│   │   │   │   ├── 02_Cyberpunk/
+│   │   │   │   │   └── Cyberpunk.md
+│   │   │   │   ├── 03_The_Rebel_Path/
+│   │   │   │   │   └── The_Rebel_Path.md
+│   │   │   │   ├── 04_Revolution/
+│   │   │   │   │   └── Revolution.md
+│   │   │   │   ├── 05_Nemesis/
+│   │   │   │   │   └── Nemesis.md
+│   │   │   │   ├── 06_Purgatory/
+│   │   │   │   │   └── Purgatory.md
+│   │   │   │   ├── 07_Warrior/
+│   │   │   │   │   └── Warrior.md
+│   │   │   │   ├── 08_Genkai/
+│   │   │   │   │   └── Genkai.md
+│   │   │   │   └── Sollowatt.md
+│   │   │   ├── 03_Koruse/
+│   │   │   │   ├── 01_My_Future/
+│   │   │   │   │   └── My_Future.md
+│   │   │   │   ├── 02_The_Guardian_of_Angels/
+│   │   │   │   │   └── The_Guardian_of_Angels.md
+│   │   │   │   ├── 03_Warning/
+│   │   │   │   │   └── Warning.md
+│   │   │   │   ├── 04_Crystals/
+│   │   │   │   │   └── Crystals.md
+│   │   │   │   ├── 05_Kerosene/
+│   │   │   │   │   └── Kerosene.md
+│   │   │   │   ├── 06_So_Tired/
+│   │   │   │   │   └── So_Tired.md
+│   │   │   │   ├── 07_Nightmare/
+│   │   │   │   │   └── Nightmare.md
+│   │   │   │   ├── 08_Death_Is_No_More/
+│   │   │   │   │   └── Death_Is_No_More.md
+│   │   │   │   └── Koruse.md
+│   │   │   ├── 04_Toismic/
+│   │   │   │   ├── 01_Break_your_Limits!/
+│   │   │   │   │   └── Break_your_Limits.md
+│   │   │   │   ├── 02_DISTORTED_DREAMING/
+│   │   │   │   │   └── DISTORTED_DREAMING.md
+│   │   │   │   ├── 03_Hologram/
+│   │   │   │   │   └── Hologram.md
+│   │   │   │   ├── 04_One_More/
+│   │   │   │   │   └── One_More.md
+│   │   │   │   ├── 05_POWERHOUSE!/
+│   │   │   │   │   └── POWERHOUSE.md
+│   │   │   │   ├── 06_Walk_of_Gods/
+│   │   │   │   │   └── Walk_of_Gods.md
+│   │   │   │   ├── 07_SOLDIER_OF_DARKNESS/
+│   │   │   │   │   └── SOLDIER_OF_DARKNESS.md
+│   │   │   │   ├── 08_TOTAL_MADNESS/
+│   │   │   │   │   └── TOTAL_MADNESS.md
+│   │   │   │   └── Toismic.md
+│   │   │   ├── 05_Swelte/
+│   │   │   │   ├── 01_BLACKOUT/
+│   │   │   │   │   └── BLACKOUT.md
+│   │   │   │   ├── 02_BACK2BACK/
+│   │   │   │   │   └── BACK2BACK.md
+│   │   │   │   ├── 03_Faster!/
+│   │   │   │   │   └── Faster.md
+│   │   │   │   ├── 04_MUDD/
+│   │   │   │   │   └── MUDD.md
+│   │   │   │   ├── 05_Override/
+│   │   │   │   │   └── Override.md
+│   │   │   │   ├── 06_Priestess/
+│   │   │   │   │   └── Priestess.md
+│   │   │   │   ├── 07_Trail_of_Tears/
+│   │   │   │   │   └── Trail_of_Tears.md
+│   │   │   │   ├── 08_Unbound_Passion/
+│   │   │   │   │   └── Unbound_Passion.md
+│   │   │   │   └── Swelte.md
+│   │   │   ├── 06_Umami/
+│   │   │   │   ├── 01_Demons/
+│   │   │   │   │   └── Demons.md
+│   │   │   │   ├── 02_Tiki_Taka/
+│   │   │   │   │   └── Tiki_Taka.md
+│   │   │   │   ├── 03_Numb/
+│   │   │   │   │   └── Numb.md
+│   │   │   │   ├── 04_Matushka_Ultrafunk/
+│   │   │   │   │   └── Matushka_Ultrafunk.md
+│   │   │   │   ├── 05_GAIA/
+│   │   │   │   │   └── GAIA.md
+│   │   │   │   ├── 06_URAMI/
+│   │   │   │   │   └── URAMI.md
+│   │   │   │   ├── 07_AVANGARD/
+│   │   │   │   │   └── AVANGARD.md
+│   │   │   │   ├── 08_Transgender/
+│   │   │   │   │   └── Transgender.md
+│   │   │   │   └── Umami.md
+│   │   │   ├── project-structure.js
+│   │   │   ├── rcd-builder.js
+│   │   │   └── Romalin.md
+│   │   └── rcd-garden/
+│   ├── app.json
+│   ├── appearance.json
+│   ├── core-plugins.json
+│   └── workspace.json
+├── 01_Loric_Sahasrara/
+│   ├── 01_DEVILS_INSIDE_ME/
+│   │   └── DEVILS INSIDE ME.md
+│   ├── 02_28_Days_Later/
+│   │   └── 28 Days Later.md
+│   ├── 03_Resident_Evil/
+│   │   └── Resident Evil.md
+│   ├── 04_Vois_Sur_Ton_Chemin/
+│   │   └── Vois Sur Ton Chemin.md
+│   ├── 05_No_Glory/
+│   │   └── No Glory.md
+│   ├── 06_Glory/
+│   │   └── Glory.md
+│   ├── 07_Dragon_Fire/
+│   │   └── Dragon Fire.md
+│   ├── 08_Ragnarok/
+│   │   └── Ragnarok.md
+│   └── 01_Loric.md
+├── 02_Sollowatt_Vishuddha/
+│   ├── 01_Psycho/
+│   │   └── Psycho.md
+│   ├── 02_Cyberpunk/
+│   │   └── Cyberpunk.md
+│   ├── 03_The_Rebel_Path/
+│   │   └── The Rebel Path.md
+│   ├── 04_Revolution/
+│   │   └── Revolution.md
+│   ├── 05_Land_Of_Fire/
+│   │   └── Land_Of_Fire.md
+│   ├── 06_Murder_in_my_Mind/
+│   │   └── Murder_in_my_Mind.md
+│   ├── 07_Gangsta_Paradise/
+│   │   └── Gangsta_Paradise.md
+│   ├── 08_Nemesis/
+│   │   └── Nemesis.md
+│   ├── 09_Purgatory/
+│   │   └── Purgatory.md
+│   ├── 10_Warrior/
+│   │   └── Warrior.md
+│   ├── 11_Genkai/
+│   │   └── Genkai.md
+│   └── 02_Sollowatt.md
+├── 03_Koruse_Anahata/
+│   ├── 01_My_Future/
+│   │   └── My Future.md
+│   ├── 02_The_Guardian_of_Angels/
+│   │   └── The Guardian of Angels.md
+│   ├── 03_Warning/
+│   │   └── Warning.md
+│   ├── 04_Crystals/
+│   │   └── Crystals.md
+│   ├── 05_Kerosene/
+│   │   └── Kerosene.md
+│   ├── 06_So_Tired/
+│   │   └── So Tired.md
+│   ├── 07_Nightmare/
+│   │   └── Nightmare.md
+│   ├── 08_Death_Is_No_More/
+│   │   └── Death Is No More.md
+│   └── 03_Koruse.md
+├── 04_Toismic_Manipura/
+│   ├── 01_Break_your_Limits!/
+│   │   └── Break your Limits!.md
+│   ├── 02_DISTORTED_DREAMING/
+│   │   └── DISTORTED DREAMING.md
+│   ├── 03_Hologram/
+│   │   └── Hologram.md
+│   ├── 04_One_More/
+│   │   └── One More.md
+│   ├── 05_POWERHOUSE!/
+│   │   └── POWERHOUSE!.md
+│   ├── 06_Walk_of_Gods/
+│   │   └── Walk of Gods.md
+│   ├── 07_SOLDIER_OF_DARKNESS/
+│   │   └── SOLDIER OF DARKNESS.md
+│   ├── 08_TOTAL_MADNESS/
+│   │   └── TOTAL MADNESS.md
+│   ├── 09_REDEMPTION/
+│   │   └── REDEMPTION.md
+│   └── 04_Toismic.md
+├── 05_Swelte_Svadhisthana/
+│   ├── 01_PSYCHOGENESIS/
+│   │   └── PSYCHOGENESIS.md
+│   ├── 02_BLACKOUT/
+│   │   └── BLACKOUT.md
+│   ├── 03_BACK2BACK/
+│   │   └── BACK2BACK.md
+│   ├── 04_Faster!/
+│   │   └── Faster!.md
+│   ├── 05_MUDD/
+│   │   └── MUDD.md
+│   ├── 06_Override/
+│   │   └── Override.md
+│   ├── 07_Priestess/
+│   │   └── Priestess.md
+│   ├── 08_Trail_of_Tears/
+│   │   └── Trail of Tears.md
+│   ├── 09_Unbound_Passion/
+│   │   └── Unbound Passion.md
+│   └── 05_Swelte.md
+├── 06_Umami_Muladhara/
+│   ├── 01_Demons/
+│   │   └── Demons.md
+│   ├── 02_Tiki_Taka/
+│   │   └── Tiki Taka.md
+│   ├── 03_Numb/
+│   │   └── Numb.md
+│   ├── 04_Matushka_Ultrafunk/
+│   │   └── Matushka Ultrafunk.md
+│   ├── 05_GAIA/
+│   │   └── GAIA.md
+│   ├── 06_URAMI/
+│   │   └── URAMI.md
+│   ├── 07_AVANGARD/
+│   │   └── AVANGARD.md
+│   ├── 08_Transgender/
+│   │   └── Transgender.md
+│   └── 06_Umami.md
+├── 1_Akame/
+│   ├── .DS_Store
+│   ├── Icon
+│   ├── Romalin-Architecture.md
+│   └── Romalin.md
+├── .DS_Store
+├── create.sh
+├── generator.sh
+├── Icon
+└── Romalin.md

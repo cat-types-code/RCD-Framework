@@ -1,0 +1,16 @@
+{
+  "rats": [
+    "rat_chaos.css",
+    "rat_drift.css",
+    "rat_flux.css",
+    "rat_spiral.css",
+    "rat_storm.css",
+    "rat_turbulence.css",
+    "rat_void.css"
+  ],
+  "metadata": {
+    "catalog": "entropy",
+    "description": "Chaos and entropy effects",
+    "lastUpdate": "2025-05-11T11:48:37.065Z"
+  }
+}
